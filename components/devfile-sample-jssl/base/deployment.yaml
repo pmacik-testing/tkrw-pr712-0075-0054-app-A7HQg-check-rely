@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-jssl
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/pmacik-testing/tkrw-pr712-0075-0054-tenant/tkrw-pr712-0075-0054-app/devfile-sample-jssl@sha256:ab13706a44d8ccca8e4153d988f49c24bfc36500e4b4e649c1a625da6c903303
         name: my-nodejs
         ports:
         - containerPort: 3001
